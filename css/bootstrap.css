@@ -1,0 +1,110 @@
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url('./Montserrat-Regular.ttf');
+}
+@font-face {
+	font-family: Montserrat-Medium;
+	src: url('./Montserrat-Medium.ttf');
+}
+@font-face {
+	font-family: Montserrat-SemiBold;
+	src: url('./Montserrat-SemiBold.ttf');
+}
+@font-face {
+	font-family: Montserrat-Bold;
+	src: url('./Montserrat-Bold.ttf');
+}
+
+:root {
+	--main-red: #ff4952;
+	--main-blue: #5773ff;
+	--second-blue: #102770;
+	--ultra-light-grey: #c4c3ca;
+	--light-grey: #474b52;
+	--grey: #31353a;
+	--yellow: #f7df90;
+}
+
+.carousel-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	gap: 15px 20px;
+	margin-right: 100px;
+}
+.carousel-oneitem {
+	flex-direction: column;
+	max-width: 450px;
+	height: fit-content;
+}
+.carousel-text {
+	color: aliceblue;
+
+	width: fit-content;
+	margin: auto;
+}
+
+.carousel-text-top {
+	display: flex;
+}
+
+.carousel-text-project {
+	width: fit-content;
+
+	font-family: Montserrat-Medium;
+	font-size: 20px;
+	color: #fff;
+}
+.carousel-text-project-name {
+	width: fit-content;
+
+	margin-left: 14px;
+	font-family: Montserrat-Regular;
+	font-size: 18px;
+	color: var(--main-red);
+}
+.carousel-text-date {
+	font-family: Montserrat-Medium;
+	font-size: 14px;
+	color: var(--light-grey);
+}
+
+.carousel-image {
+	max-height: 600px;
+	max-width: 450px;
+	margin-bottom: 12px;
+	transform: scale(1);
+}
+.carousel-image:hover {
+	transform: scale(1.03);
+}
+.carousel-text-separator {
+	color: var(--main-blue);
+	font-family: Montserrat-Medium;
+}
+.carousel-text-description {
+	font-family: Montserrat-Regular;
+	width: 100%;
+}
+
+#category-fade-bottom {
+	color: var(--main-blue);
+}
+
+.out {
+	opacity: 0%;
+}
+
+.in {
+	opacity: 100%;
+	transition: opacity 2s ease;
+}
+
+.out-r {
+	opacity: 0%;
+}
+
+.in-r {
+	opacity: 100%;
+	transition: opacity 2s ease;
+}

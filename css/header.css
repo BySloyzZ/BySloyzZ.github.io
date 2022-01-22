@@ -1,0 +1,107 @@
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url('./Montserrat-Regular.ttf');
+}
+@font-face {
+	font-family: Montserrat-Medium;
+	src: url('./Montserrat-Medium.ttf');
+}
+@font-face {
+	font-family: Montserrat-SemiBold;
+	src: url('./Montserrat-SemiBold.ttf');
+}
+
+:root {
+	--main-red: #ff4952;
+	--main-blue: #5773ff;
+	--second-blue: #102770;
+	--ultra-light-grey: #c4c3ca;
+	--light-grey: #474b52;
+	--grey: #31353a;
+	--yellow: #f7df90;
+}
+
+.header-illustration {
+	max-width: 250px;
+}
+.header-illustration-div {
+	display: block;
+	margin-right: 35%;
+}
+.header-subbox {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+.header {
+	height: 80px;
+	width: 100%;
+}
+.header-box {
+	padding: 0px 0px 0px 118px;
+
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: baseline;
+	align-items: center;
+
+	margin-top: 40px;
+}
+
+.header-name {
+	font-size: 21px;
+	font-family: Montserrat-Medium;
+
+	color: var(--main-blue);
+
+	margin-right: 5%;
+}
+
+.header-subname-dc {
+	font-size: 15px;
+	font-family: Montserrat-SemiBold;
+
+	filter: brightness(0) invert(0.4);
+	color: var(--main-blue);
+
+	transition: filter 0.2s;
+}
+.header-subname-dc:hover {
+	transition: filter 0.2s;
+	filter: none;
+}
+
+.header-subname-yt {
+	font-size: 15px;
+	font-family: Montserrat-SemiBold;
+
+	filter: brightness(0) invert(0.4);
+	color: var(--main-red);
+
+	transition: filter 0.2s;
+}
+.header-subname-yt:hover {
+	transition: filter 0.2s;
+	filter: none;
+}
+
+.header-item {
+	margin-left: 5%;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
+
+	cursor: pointer;
+}
+
+.header-icon {
+	max-height: 20px;
+	max-width: 25px;
+
+	margin-right: 10px;
+}

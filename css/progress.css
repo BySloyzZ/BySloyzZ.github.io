@@ -1,0 +1,95 @@
+:root {
+	--main-red: #ff4952;
+	--main-blue: #5773ff;
+	--second-blue: #102770;
+	--ultra-light-grey: #c4c3ca;
+	--light-grey: #474b52;
+	--grey: #31353a;
+	--yellow: #f7df90;
+}
+
+.progress-nodejs {
+	-webkit-appearance: none;
+	appearance: none;
+
+	width: 100%;
+	height: 15px;
+}
+.progress-nodejs::-webkit-progress-bar {
+	border-radius: 10px;
+	background-color: #549e4334;
+}
+.progress-nodejs::-webkit-progress-value {
+	border-radius: 10px;
+	background-color: #539e43;
+	background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+.progress-html {
+	-webkit-appearance: none;
+	appearance: none;
+
+	width: 100%;
+	height: 15px;
+}
+.progress-html::-webkit-progress-bar {
+	border-radius: 10px;
+	background-color: #E44D2634;
+}
+.progress-html::-webkit-progress-value {
+	border-radius: 10px;
+	background-color: #e44d26;
+	background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+.progress-c {
+	-webkit-appearance: none;
+	appearance: none;
+
+	width: 100%;
+	height: 15px;
+}
+.progress-c::-webkit-progress-bar {
+	border-radius: 10px;
+	background-color: #00448134;
+}
+.progress-c::-webkit-progress-value {
+	border-radius: 10px;
+	background-color: #004481;
+	background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+
+.progress-kotlin {
+	-webkit-appearance: none;
+	appearance: none;
+
+	width: 100%;
+	height: 15px;
+}
+.progress-kotlin::-webkit-progress-bar {
+	border-radius: 10px;
+	background-color: #332c5a;
+}
+.progress-kotlin::-webkit-progress-value {
+	border-radius: 10px;
+	background-color: #7F6EE3;
+	background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+.progress-python {
+	-webkit-appearance: none;
+	appearance: none;
+
+	width: 100%;
+	height: 15px;
+}
+.progress-python::-webkit-progress-bar {
+	border-radius: 10px;
+	background-color: #947a25;
+}
+.progress-python::-webkit-progress-value {
+	border-radius: 10px;
+	background-color: #FFD23F;
+	background-size: 35px 20px, 100% 100%, 100% 100%;
+}
